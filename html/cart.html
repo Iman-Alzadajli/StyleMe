@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Cart</title>
+  <link rel="stylesheet" href="../css/cart.css" />
+</head>
+<body>
+
+  <h1>🛒 Your Shopping Cart</h1>
+
+  <!-- Go back to main page -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <a href="index.html">
+      <button style="background-color: rgb(48, 79, 144); color: aliceblue;">⬅️ Back to Home</button>
+    </a>
+  </div>
+
+  <div id="cartList"></div>
+
+  <div class="cart-controls">
+    <button onclick="clearCart()" style="background-color: rgb(199, 10, 10); color: aliceblue;">🗑️ Delete All</button>
+    <h2 id="totalPrice">Total: $0.00</h2>
+  </div>
+
+  <script src="../js/cart.js"></script>
+</body>
+</html>
